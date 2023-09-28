@@ -1,0 +1,90 @@
+h1{
+	margin-bottom: 60px;
+}
+.info_block{
+	width: 440px;
+	margin-bottom: 50px;
+}
+.info_h2_comment{
+	width: 377px;
+	font-size: var(--fz-text-lead);
+	font-weight: 500;
+	padding: 20px 0;
+	border-top: 1px solid var(--color-light-gray);
+	border-bottom: 1px solid var(--color-light-gray);
+	margin: 40px 0;
+}
+.info_text{
+	width: 338px;
+	margin-bottom: 50px;
+}
+.info_text p{
+	margin-bottom: 30px;
+}
+.directors_text{
+	padding: 8px 0;
+	width: 370px;
+	font-size: var(--fz-text-small-caps);
+	border-bottom: 1px solid var(--color-light-gray);
+}
+.info_imgs{
+	width: 100%;
+	margin-bottom: 70px;
+}
+.info_imgs img{
+    width: calc(50% - 10px);
+}
+.philosophy_h_comment{
+	width: 280px;
+	margin-bottom: 25px;
+}
+.philosophy_link_list{
+	margin-top: 192.5px;
+	width: 365px;
+}
+.philosophy_link_block{
+	font-size: var(--fz-text-small-caps);
+	display: flex;
+	border-bottom: 1px solid var(--color-light-gray);
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 7.5px 0;
+}
+.philosophy_link_number{
+	color: var(--color-dark-gray);
+	margin-right: 60px;
+	font-weight: 500;
+}
+.philosophy_skandinavskiy_sad_link_list{
+	margin-top: 50px;
+}
+.philosophy_skandinavskiy_sad_link{
+	width: calc(33.33% - 14px);
+	margin-bottom: 20px;
+}
+.philosophy_skandinavskiy_sad_text{
+	margin: 8px 0;
+	font-size: var(--fz-text-small-caps);
+	text-transform: uppercase;
+	font-weight: 500;
+	position: relative;
+	width: 100%;
+}
+.philosophy_skandinavskiy_sad_link img{
+	width: 100%;
+}
+.philosophy_skandinavskiy_sad_text:after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	width: 10.5px;
+	height: 10.5px;
+}
+.philosophy_skandinavskiy_sad_link:nth-child(1) .philosophy_skandinavskiy_sad_text:after{background-color: #858B76;}
+.philosophy_skandinavskiy_sad_link:nth-child(2) .philosophy_skandinavskiy_sad_text:after{background-color: #DBDCD7;}
+.philosophy_skandinavskiy_sad_link:nth-child(3) .philosophy_skandinavskiy_sad_text:after{background-color: #CCD7E0;}
+.philosophy_skandinavskiy_sad_link:nth-child(4) .philosophy_skandinavskiy_sad_text:after{background-color: #fff;}
+.philosophy_skandinavskiy_sad_link:nth-child(5) .philosophy_skandinavskiy_sad_text:after{background-color: #A6A5A5;}
+.philosophy_skandinavskiy_sad_link:nth-child(6) .philosophy_skandinavskiy_sad_text:after{background-color: #F1C8BF;}

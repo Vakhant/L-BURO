@@ -1,0 +1,16 @@
+
+:root {
+	--color-black: black;
+	--color-dark-gray: #6C6B6B;
+	--color-light-gray: #B9B3B3;
+
+	--fz-text: 13px;
+	--fz-text-lead: 19.5px;
+	--fz-text-small-caps: 11px;
+	--fz-text-small: 9px;
+	--fz-text-link: 9px;
+	--fz-text-Bullet-point: 13px;
+	
+	--lh-text: 1.3;
+	--lh-other: 1.2;
+	--lh-Bullet-point: 1.3;}

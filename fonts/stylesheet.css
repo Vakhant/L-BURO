@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('TT_Commons_Pro_Expanded_Regular.eot');
+    src: local('TT Commons Regular'), local('TT Commons Pro Expanded Regular'),
+        url('TT_Commons_Pro_Expanded_Regular.eot?#iefix') format('embedded-opentype'),
+        url('TT_Commons_Pro_Expanded_Regular.woff2') format('woff2'),
+        url('TT_Commons_Pro_Expanded_Regular.woff') format('woff'),
+        url('TT Commons Pro Expanded Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('TT_Commons_Pro_Expanded_Medium.eot');
+    src: local('TT Commons Medium'), local('TT Commons Pro Expanded Medium'),
+        url('TT_Commons_Pro_Expanded_Medium.eot?#iefix') format('embedded-opentype'),
+        url('TT_Commons_Pro_Expanded_Medium.woff2') format('woff2'),
+        url('TT_Commons_Pro_Expanded_Medium.woff') format('woff'),
+        url('TT Commons Pro Expanded Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('TT_Commons_Pro_Expanded_Light.eot');
+    src: local('TT Commons Light'), local('TT Commons Pro Expanded Light'),
+        url('TT_Commons_Pro_Expanded_Light.eot?#iefix') format('embedded-opentype'),
+        url('TT_Commons_Pro_Expanded_Light.woff2') format('woff2'),
+        url('TT_Commons_Pro_Expanded_Light.woff') format('woff'),
+        url('TT Commons Pro Expanded Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('TT_Commons_Pro_Expanded_DemiBold.eot');
+    src: local('TT Commons DemiBold'), local('TT Commons Pro Expanded DemiBold'),
+        url('TT_Commons_Pro_Expanded_DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TT_Commons_Pro_Expanded_DemiBold.woff2') format('woff2'),
+        url('TT_Commons_Pro_Expanded_DemiBold.woff') format('woff'),
+        url('TT Commons Pro Expanded DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('TT_Commons_Pro_Expanded_Bold.eot');
+    src: local('TT Commons Bold'), local('TT Commons Pro Expanded Bold'),
+        url('TT_Commons_Pro_Expanded_Bold.eot?#iefix') format('embedded-opentype'),
+        url('TT_Commons_Pro_Expanded_Bold.woff2') format('woff2'),
+        url('TT_Commons_Pro_Expanded_Bold.woff') format('woff'),
+        url('TT Commons Pro Expanded Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
