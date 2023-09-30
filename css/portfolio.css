@@ -1,0 +1,46 @@
+section.promo{
+    margin-bottom: 90px;
+}
+h1{margin-top: 180px;}
+.portfolio_nav{
+    width: 555px;
+    border-bottom: 1px solid var(--color-light-gray);
+}
+.portfolio_nav_block{
+    position: relative;
+}
+.portfolio_nav_block:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0;
+    transition: .3s;
+}
+.portfolio_nav_block.chosen:after,
+.portfolio_nav_block.chosen:hover:after{
+    opacity: 1;
+}
+
+section.portfolio{}
+.portfolio_block_info{height: 180px;}
+.portfolio_block_name{margin: 20px 0;}
+.portfolio_awards{width: 67%;}
+.portfolio_awards_block{
+    border-bottom: 1px solid var(--color-light-gray);
+}
+.portfolio_awards_block{
+    padding: 10px 0;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: var(--fz-text-small-caps);
+    font-weight: 500;
+}
+.portfolio_awards_block.gold{background-image: url(../img/icon/award_g.svg);}
+.portfolio_awards_block.silver{background-image: url(../img/icon/award_s.svg);}
+.portfolio_awards_block.bronze{background-image: url(../img/icon/award_b.svg);}

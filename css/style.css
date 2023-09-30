@@ -21,6 +21,7 @@ a, button{
 	line-height: var(--lh-text);
 	text-transform: uppercase;
 	font-weight: 500;
+	display: block;
 }
 body > section, footer, header{float: left; width: 100%;}
 section{margin-bottom: 30px;}
@@ -50,7 +51,10 @@ h2.type2{
 h3{
 	font-size: 24px;
 	font-weight: 600;
-	width: 280px;
+}
+h4{
+	font-size: 16px;
+	font-weight: 450;
 }
 /* h1:last-of-type:after {
     content: ".";
@@ -64,8 +68,10 @@ h3{
 .r-col{margin-left: 16px;}
 .df{display: flex;}
 .asfe{align-self: flex-end;}
+.asfs{align-self: flex-start;}
 .aife{align-items: flex-end;}
 .aifs{align-items: flex-start;}
+.ais{align-items: stretch;}
 .jcsb{justify-content: space-between;}
 .jcfs{justify-content: flex-start;}
 .fdc{flex-direction: column;}
@@ -232,4 +238,59 @@ footer{
 .footer_designer a{
     color: #B9B3B3;
     font-size: var(--fz-text-link);
+	display: inline;
+}
+
+.ordering h3{
+	margin-bottom: 27px;
+}
+.ordering_form{width: 450px;}
+.ordering_form input[type="text"], .ordering_form input[type="tel"]{
+    font-weight: 500;
+    font-size: var(--fz-text-small);
+    text-transform: uppercase;
+    color: #6C6B6B;
+    outline: none;
+    padding: 7.5px 0;
+    width: 100%;
+    border-bottom: 1px solid var(--color-light-gray);
+}
+.ordering_check{
+	font-weight: 500;
+    text-transform: uppercase;
+    color: #6C6B6B;
+    outline: none;
+    padding: 7.5px 0;
+    border-bottom: 0.750234px solid var(--color-light-gray);
+    display: flex;
+    justify-content: space-between;
+}
+.ordering_check label{
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--color-light-gray);
+    position: relative;
+    cursor: pointer;
+}
+.ordering_check input:checked ~ label:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #000000;
+}
+.ordering_form input[type="submit"]{
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: var(--fz-text-small);
+    text-transform: uppercase;
+    color:  var(--color-black);
+    padding: 7.5px 0;
+    border-bottom: 1px solid var(--color-light-gray);
+    margin-top: 40px;
+    cursor: pointer;
 }

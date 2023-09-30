@@ -88,3 +88,7 @@ h1{
 .philosophy_skandinavskiy_sad_link:nth-child(4) .philosophy_skandinavskiy_sad_text:after{background-color: #fff;}
 .philosophy_skandinavskiy_sad_link:nth-child(5) .philosophy_skandinavskiy_sad_text:after{background-color: #A6A5A5;}
 .philosophy_skandinavskiy_sad_link:nth-child(6) .philosophy_skandinavskiy_sad_text:after{background-color: #F1C8BF;}
+
+.philosophy h3{
+	width: 280px;
+}
