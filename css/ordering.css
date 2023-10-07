@@ -1,0 +1,53 @@
+.ordering h3{
+	margin-bottom: 27px;
+}
+.ordering_form{width: 450px;}
+.ordering_form input[type="text"], .ordering_form input[type="tel"]{
+    font-weight: 500;
+    font-size: var(--fz-text-small);
+    text-transform: uppercase;
+    color: #6C6B6B;
+    outline: none;
+    padding: 7.5px 0;
+    width: 100%;
+    border-bottom: 1px solid var(--color-light-gray);
+}
+.ordering_check{
+	font-weight: 500;
+    text-transform: uppercase;
+    color: #6C6B6B;
+    outline: none;
+    padding: 7.5px 0;
+    border-bottom: 0.750234px solid var(--color-light-gray);
+    display: flex;
+    justify-content: space-between;
+}
+.ordering_check label{
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--color-light-gray);
+    position: relative;
+    cursor: pointer;
+}
+.ordering_check input:checked ~ label:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #000000;
+}
+.ordering_form input[type="submit"]{
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: var(--fz-text-small);
+    text-transform: uppercase;
+    color:  var(--color-black);
+    padding: 7.5px 0;
+    border-bottom: 1px solid var(--color-light-gray);
+    margin-top: 40px;
+    cursor: pointer;
+}

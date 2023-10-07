@@ -26,8 +26,6 @@ h1{margin-top: 180px;}
 }
 
 section.portfolio{}
-.portfolio_block_info{height: 180px;}
-.portfolio_block_name{margin: 20px 0;}
 .portfolio_awards{width: 67%;}
 .portfolio_awards_block{
     border-bottom: 1px solid var(--color-light-gray);
@@ -44,3 +42,30 @@ section.portfolio{}
 .portfolio_awards_block.gold{background-image: url(../img/icon/award_g.svg);}
 .portfolio_awards_block.silver{background-image: url(../img/icon/award_s.svg);}
 .portfolio_awards_block.bronze{background-image: url(../img/icon/award_b.svg);}
+.portfolio_bottom_nav{
+    margin-bottom: 140px;
+    margin-top: 70px;
+    width: 450px;
+    border-top: 1px solid var(--color-light-gray);
+}
+.portfolio_bottom_nav_block{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+.portfolio_bottom_nav_block:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    right: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0;
+    transition: .3s;
+}
+.portfolio_bottom_nav_block.chosen:after,
+.portfolio_bottom_nav_block.chosen:hover:after{
+    opacity: 1;
+}

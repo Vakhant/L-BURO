@@ -12,4 +12,20 @@
 	--fz-text-Bullet-point: 13px;
 	--lh-text: 1.3;
 	--lh-other: 1.2;
-	--lh-Bullet-point: 1.3;}
+	--lh-Bullet-point: 1.3;
+}
+
+.fw-l{font-weight: 300;}
+.fw-r{font-weight: 400;}
+.fw-n{font-weight: 450;}
+.fw-m{font-weight: 500;}
+.fw-db{font-weight: 600;}
+.fw-b{font-weight: 700;}
+.fz-13{font-size: 13px;}
+.fz-19_5{font-size: 19.5px;}
+.fz-11{font-size: 11px;}
+.fz-9{font-size: 9px;}
+.fz-38{font-size: 38px;}
+.fz-24{font-size: 24px;}
+.c-dg{color: #6C6B6B}
+.c-lg{color: #B9B3B3}
