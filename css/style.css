@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5{text-transform: uppercase; line-height: var(--lh-other);}
 h1{
 	font-family: "TT Commons Pro Expanded";
 	font-size: 48px;
-	margin-top: 90px;
 	font-weight: 700;
 	text-transform: uppercase;}
 h2{
@@ -101,24 +100,34 @@ img{max-width: 100%;}
 
 .mnw-100p{min-width: 100%;}
 .mnw-50p{min-width: 50%;}
+
 .mxw-100p{max-width: 100%;}
 .mxw-50p{max-width: 50%;}
 .mxw-25p{max-width: 25%;}
+
 .w-25p{width: 25%;}
 .w-50p{width: 50%;}
+
 .mxw-265{max-width: 265px;}
+.mxw-280{max-width: 280px;}
 .mxw-340{max-width: 340px;}
 .mxw-350{max-width: 350px;}
 .mxw-360{max-width: 360px;}
 .mxw-370{max-width: 370px;}
 .mxw-380{max-width: 380px;}
+.mxw-400{max-width: 400px;}
 .mxw-450{max-width: 450px;}
+.mxw-505{max-width: 505px;}
 .mxw-550{max-width: 550px;}
 .mxw-630{max-width: 630px;}
-.w-265{max-width: 265px;}
+
+.w-400{width: 400px;}
+.w-265{width: 265px;}
+.w-240{width: 265px;}
 .w-135{width: 135px;}
 .w-145{width: 145px;}
 .w-10_5{width: 10.5px;}
+
 .h-10_5{height: 10.5px;}
 
 .p-1{padding: 1px;} .p-2{padding: 2px;} .p-3{padding: 3px;} .p-4{padding: 4px;} .p-5{padding: 5px;} .p-6{padding: 6px;} .p-7{padding: 7px;} .p-8{padding: 8px;} .p-9{padding: 9px;} .p-10{padding: 10px;} .p-11{padding: 11px;} .p-12{padding: 12px;} .p-13{padding: 13px;} .p-14{padding: 14px;} .p-15{padding: 15px;}
@@ -205,6 +214,8 @@ img{max-width: 100%;}
 .mt-240{margin-top: 240px;} .mr-240{margin-right: 240px;} .mb-240{margin-bottom: 240;} .ml-240{margin-left: 240px;}
 .mt-245{margin-top: 245px;} .mr-245{margin-right: 245px;} .mb-245{margin-bottom: 245;} .ml-245{margin-left: 245px;}
 .mt-250{margin-top: 250px;} .mr-250{margin-right: 250px;} .mb-250{margin-bottom: 250;} .ml-250{margin-left: 250px;}
+.mt-300{margin-top: 300px;} .mr-300{margin-right: 300px;} .mb-300{margin-bottom: 300;} .ml-300{margin-left: 300px;}
+.mt-325{margin-top: 325px;} .mr-325{margin-right: 325px;} .mb-325{margin-bottom: 325;} .ml-325{margin-left: 325px;}
 
 .ovf-h{overflow: hidden;}
 .p-7_5-0{padding: 7.5px 0;}
