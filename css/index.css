@@ -6,19 +6,6 @@
 	margin-top: 192.5px;
 	width: 365px;
 }
-.philosophy_link_block{
-	font-size: var(--fz-text-small-caps);
-	display: flex;
-	border-bottom: 1px solid var(--color-light-gray);
-	text-transform: uppercase;
-	font-weight: 500;
-	padding: 7.5px 0;
-}
-.philosophy_link_number{
-	color: var(--color-dark-gray);
-	margin-right: 60px;
-	font-weight: 500;
-}
 .philosophy_skandinavskiy_sad_link_list{
 	margin-top: 50px;
 }
